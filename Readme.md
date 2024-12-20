@@ -39,7 +39,16 @@ This application allows you to search and query research papers using semantic s
    streamlit run app.py
 
 
-### Order of files to run will be - download_papers.py, pdf_extractor.py,  text_preprocessor.py,  index_builder.py,  query_engine.py and app.py
+## Generating Data Folder
+
+To recreate the `data` folder, follow these steps:
+
+1. Download PDFs using `download_papers.py`.
+2. Extract text using `pdf_extractor.py`.
+3. Clean and preprocess the text using `text_preprocessor.py`.
+4. Build the FAISS index using `index_builder.py`.
+
+Once done, the `data` folder will contain the necessary files for running the app.
 
 
 
