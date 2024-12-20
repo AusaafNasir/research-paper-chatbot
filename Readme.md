@@ -31,4 +31,16 @@ This application allows you to search and query research papers using semantic s
    cd research-ai-chatbot
 
 2. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+
+3. **Run the Streamlit app**:
+   ```bash
+   streamlit run app.py
+
+
+### Order of files to run will be - download_papers.py, pdf_extractor.py,  text_preprocessor.py,  index_builder.py,  query_engine.py and app.py
+
+
+
    
