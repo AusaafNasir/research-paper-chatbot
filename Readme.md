@@ -9,7 +9,7 @@ This application allows you to search and query research papers using semantic s
 
 ## Features
 - **Semantic Search**: Uses advanced Sentence Transformers for understanding query intent.
-- **Clean Results**: Provides paper title, link, and top 3 matching sentences.
+- **Clean Results**: Provides paper title, link, and top 5 matching sentences.
 - **Scalable**: Handles hundreds of papers efficiently using FAISS.
 
 ---
@@ -29,3 +29,6 @@ This application allows you to search and query research papers using semantic s
    ```bash
    git clone https://github.com/your-username/research-ai-chatbot.git
    cd research-ai-chatbot
+
+2. **Install dependencies**:
+   
