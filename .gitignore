@@ -1,0 +1,14 @@
+# Ignore data and processed text folders
+data/papers/
+data/extracted_text/
+data/cleaned_text/
+data/faiss_index/
+data/extracted_text.txt
+data/metadata.txt
+
+# Ignore virtual environment 
+venv/
+__pycache__/
+
+# Ignore large files and logs
+*.faiss
